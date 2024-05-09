@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <h1>Sorteio de Times</h1>
+        <div class="input-group">
+            <label for="players">Jogadores e Notas (formato Nome:Nota):</label>
+            <input type="text" id="players" placeholder="Ex: Ana:8, Beto:5, Carlos:7, Dani:6">
+        </div>
+        <div class="input-group">
+            <label for="numTeams">Número de Times:</label>
+            <input type="number" id="numTeams" min="2" placeholder="Ex: 2">
+        </div>
+        <button id="drawTeams">Sortear Times</button>
+        <button id="resetPage">Atualizar Página</button>
+        <div id="result"></div>
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
